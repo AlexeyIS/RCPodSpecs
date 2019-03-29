@@ -1,6 +1,8 @@
 Pod::Spec.new do |s|
-  s.platform = :ios
+  s.platform = :ios, :tvos
   s.ios.deployment_target = '10.0'
+  s.tvos.deployment_target = '9.0'
+  
   s.name         = "RangeControl"
   s.version      = "0.0.3"
   s.summary      = "RangeControl lets user to trim from both ends."
